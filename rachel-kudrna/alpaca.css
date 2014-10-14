@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  background-color: #dcd6c0;
+}
+
+.main {
+  width: 960px;
+  height: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleBar {
+  background-color: #524D70;
+  opacity: .75;
+  height: 90px;
+  z-index: 2;
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  color: #fffdee;
+  text-align: center;
+}
+
+.header__img {
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileContainer {
+  height: 360px;
+  width: 120px;
+  clear: none;
+}
+
+.profile {
+  height: 310px;
+  width: 310px;
+  margin-top: 10px;
+  position: relative;
+  background-color: #afb673;
+}
+
+.profile__img {
+  position: absolute;
+  vertical-align: top;
+  top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 3 3 3 3 gray;
+  /*border: solid gray 5px;*/
+}
+
+.profile__text {
+  font-size: 12pt;
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+
+.profile__text h3 {
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+
+}
+
+.profile__text p {
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+.profile:hover {
+  background-color: #9d8d5a;
+}
+
+.infoContainer {
+  float: right;
+  background-color: #cabb94;
+  height: 950px;
+  width: 640px;
+  position: relative;
+  right: 0px;
+  top: 0px;
+  clear: right;
+}
+
+footer {
+  height: 230px;
+  width: 960px;
+  background-color: #524D70;
+  color: #fffdee;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 0px;
+}
